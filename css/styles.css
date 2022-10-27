@@ -10,14 +10,6 @@ ol{ list-style: none;}
 a{text-decoration: none;}
 
 /* HEADER */
-.header{
-    background-color:rgba(128, 128, 128, 0.404) ;
-padding: 20px;
-display: flex;
-justify-content:center;
-font-size:4rem;
-
-}
 
 /* NAVBAR */ 
 
@@ -37,98 +29,50 @@ font-size:4rem;
     font-size: 1.25rem;
 }
 
+.nav-item:hover{
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.065) ;
+    border-radius: 20px;
+   
+}
+
 /* NOTICIA */
-
-
-.noticias__contenedor1{
-    background-color: rgba(54, 54, 54, 0.186);
-font-size: 2rem;
-padding: 20px;
-border-radius: 20px;
-height:90px;
-color: rgb(0, 0, 0);
-
-
-}
-
-.tarjetas{
-    display: flex;
-    
-    
-}
-.tarjeta{
-  
- margin-top: 80px;
-    width:250px;
-    height:350px;
-    background-color: rgba(0, 0, 0, 0.644);
-    font-size: 1.25rem;
-    color: aliceblue;
-border-width: 20px;
-border-style: solid;
-border-color: rgba(0, 0, 0, 0.644);
-padding: 15px;
-box-sizing: border-box;
-display: inline-block;
-
-
-}
-
-.tarjeta__imagen{  
-    
-    width: 100%;
-      
-   }
 
 
 
 /* PROXIMAS FECHAS */
 
-.fechas{
-    
-    display: flex;
-   justify-content: center;
-   padding-top: 20px;
-    height: 100vh;
-    
-}
-.fechas__titulo{
-    background-color: rgba(54, 54, 54, 0.692);
-    font-size: 2rem;
-    padding: 20px;
-    border-radius: 20px;
-    height:90px;
-    text-align: center;
-    color: rgb(82, 9, 9);
 
+
+
+.boton__comprar{
+    margin: 25px;
+    padding: 8px;
+    background-color: rgb(218, 127, 16);
+    border-radius: 10px;
+    
 }
-.fechas__list{
-    margin-top: 80px;
-color: bisque;
-background-color: rgba(0, 0, 0, 0.644);
-border-width: 20px;
-border-style: solid;
-border-color: rgba(0, 0, 0, 0.644);
-padding: 20px;
-        
+.boton__comprar:hover{
+    transform: scale(1.1);
 }
+
+.boton__agotado{
+    margin: 25px;
+    padding: 8px;
+    background-color: rgb(132, 129, 125);
+    border-radius: 10px;
+}
+.proximamente{
+    margin: 5px;
+    color: brown;
+
+    
+}
+
+
 
 /* FOOTER */
 
-.footer{
-   padding: 20px;
-    display: flex;
-    align-items: baseline;
-    background-color: black;
-    height: 15px;
-justify-content: center;
-
-}
-
-.footer__desc{
-    color: aliceblue;
-
-}
 
 
 /* PAGINA NUESTRA HISTORIA */
@@ -218,49 +162,12 @@ display: inline-block;}
 
 /* INTEGRANTES */
 
-.integrantes{
-    background-color: rgb(141, 141, 141);
-    height: 700px;
-display: flex;
-   justify-content:center;
-   padding-top: 80px;
-}
-.integrantes_contenedor{
-    background-color: rgba(54, 54, 54, 0.692);
-font-size: 2rem;
-padding: 20px;
-border-radius: 20px;
-height:90px;
-color: rgb(27, 9, 107);
-text-align: center;
-
+.card:hover{
+    transform: scale(1.1);
+    
 }
 
-.tarjetas__integrantes{
-    display: flex;
-    position: relative
-}
-
-.persona__contenedor{
-  
- margin-top: 80px;
-    width:250px;
-    height:400px;
-    background-color: rgba(0, 0, 0, 0.644);
-    font-size: 1.25rem;
-    color: aliceblue;
-border-width: 20px;
-border-style: solid;
-border-color: rgba(0, 0, 0, 0.644);
-padding: 15px;
-box-sizing: border-box;
-display: inline-block;}
-
-.imagen__integrante{
-    width: 100%;
-   height: 50%;
-}
-
+ 
 /* CONTACTO */
 
 .contacto{
