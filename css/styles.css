@@ -39,22 +39,14 @@ font-size:4rem;
 
 /* NOTICIA */
 
-.noticias{
-    background-image:url(../assets/img/fondo1.jpg);
-    background-attachment:fixed;
-    background-size: 100vw 100vh;
-    height: 100vh;
-   display: flex;
-   justify-content: center;
-   padding-top: 80px;
-}
+
 .noticias__contenedor1{
-    background-color: rgba(54, 54, 54, 0.692);
+    background-color: rgba(54, 54, 54, 0.186);
 font-size: 2rem;
 padding: 20px;
 border-radius: 20px;
 height:90px;
-color: rgb(82, 9, 9);
+color: rgb(0, 0, 0);
 
 
 }
@@ -93,9 +85,7 @@ display: inline-block;
 /* PROXIMAS FECHAS */
 
 .fechas{
-    background-image:url(../assets/img/fondo1.jpg);
-    background-attachment:fixed;
-    background-size: 100vw 100vh;
+    
     display: flex;
    justify-content: center;
    padding-top: 20px;
