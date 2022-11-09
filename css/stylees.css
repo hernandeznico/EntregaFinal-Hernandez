@@ -1,0 +1,207 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+
+
+}
+ul,
+ol{ list-style: none;}
+a{text-decoration: none;}
+
+/* HEADER */
+
+
+/* NAVBAR */ 
+
+.navbar{
+    background-color: rgba(128, 128, 128, 0.205);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
+.navbar__list{
+    display: flex;
+    gap:80px;
+    font-size: 1.25rem;
+}
+
+.nav-item:hover{
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.065) ;
+    border-radius: 20px;
+   
+}
+
+/* NOTICIA */
+
+
+
+/* PROXIMAS FECHAS */
+
+
+
+
+.boton__comprar{
+    margin: 25px;
+    padding: 8px;
+    background-color: rgb(218, 127, 16);
+    border-radius: 10px;
+    
+}
+.boton__comprar:hover{
+    transform: scale(1.1);
+}
+
+.boton__agotado{
+    margin: 25px;
+    padding: 8px;
+    background-color: rgb(132, 129, 125);
+    border-radius: 10px;
+}
+.proximamente{
+    margin: 5px;
+    color: brown;
+
+    
+}
+
+
+
+/* FOOTER */
+
+
+
+/* PAGINA NUESTRA HISTORIA */
+
+.historia{
+    background-color: rgba(0, 0, 0, 0.438);
+   
+    height: 2100px;
+   display: flex;
+   justify-content: center;
+   padding-top: 80px;
+}
+.historia__contenedor{
+    background-color: rgba(54, 54, 54, 0.692);
+    font-size: 2rem;
+    padding: 20px;
+    border-radius: 20px;
+    height:90px;
+    color: rgb(82, 9, 9);
+text-align: center;}
+    
+
+    .titulos{
+  
+        margin-top: 50px;
+        width: 500px;
+        height:200px;
+        font-size: 1.25rem;
+        right: 80%;
+        text-align: center;
+        color: black;
+       
+}
+
+
+.foto{
+    width: 500px;
+}
+
+/* DISCOGRAFIA */
+.discografia{
+    background-image:url(../assets/img/fondo_discografia.jpg);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: 100vw 100vh;
+    height: 100vh;
+display: flex;
+   justify-content: center;
+   padding-top: 80px;
+}
+.discogrfia_contenedor{
+    background-color: rgba(54, 54, 54, 0.692);
+font-size: 2rem;
+padding: 20px;
+border-radius: 20px;
+height:90px;
+color: rgb(107, 9, 91);
+text-align: center;
+
+}
+
+
+
+.disco{
+  
+ margin-top: 80px;
+    width:250px;
+    height:250px;
+    background-color: rgba(0, 0, 0, 0.644);
+    font-size: 1.25rem;
+    color: aliceblue;
+border-width: 20px;
+border-style: solid;
+border-color: rgba(0, 0, 0, 0.644);
+padding: 15px;
+box-sizing: border-box;
+display: inline-block;}
+
+.imagen__disco{
+    width: 100%;
+    height: 70%;
+}
+
+
+
+
+
+/* INTEGRANTES */
+
+.card:hover{
+    transform: scale(1.1);
+    
+}
+
+ 
+/* CONTACTO */
+
+.contacto{
+    background-color: rgb(141, 141, 141);
+    height: 650px;
+text-align: center;
+   padding-top: 80px;
+   
+    
+    
+}
+.contenedor__contacto{
+    background-color: rgba(54, 54, 54, 0.692);
+    font-size: 2rem;
+    padding: 20px;
+    
+    height:90px;
+    color: rgb(213, 213, 213);
+    text-align: center;
+    
+  
+}
+.contenedor__form{
+    width: 250px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.424);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.subtitulo{
+    padding: 20px;
+    background-color: gray;
+}
