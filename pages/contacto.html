@@ -11,45 +11,57 @@
 
   <title>QUIF - CONTACTO</title>
 </head>
-<header class="header">
-  <h1 class="header__titulo">Quif Group</h1>
+<header>
+  <div class="navbar navbar-expand-lg bg-gradient">
+    <div class="container">
+      <a class="navbar-brand fs-1" href="./index.html"><img src="../assets/img/logo.png" alt="quif group logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
+      <nav class="collapse navbar-collapse justify-content-end fs-4" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-center" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center" href="/pages/nuestra-historia.html">Nuestra Historia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center" href="/pages/integrantes.html">Integrantes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center" href="/pages/discografia.html">Discografia</a>
+          </li>
+          <li class="nav-item text-center">
+            <a class="nav-link" href="/pages/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
 </header>
 
 <body>
 
 
   <main>
-    <section>
-      <nav class="navbar">
-        <ul class="navbar__list">
-          <li class="navbar__item"><a href="../index.html">Inicio</a></li>
-          <li class="navbar__item"><a href="../pages/nuestra-historia.html">Nuestra Historia</a></li>
-          <li class="navbar__item"><a href="../pages/integrantes.html">Integrantes</a></li>
-          <li class="navbar__item"><a href="../pages/discografia.html">Discografia</a></li>
 
-          <li class="navbar__item"><a href="../pages/contacto.html">Contacto</a></li>
-
-        </ul>
-      </nav>
-    </section>
     <section class="contacto">
-      <div class="contenedor__contacto">
+      <div class="">
         <h2>CONTACTO</h2>
       </div>
       <div class="subtitulo">
         <h3>Contactanos para cualquier tipo de informacion que desee consultar</h3>
       </div>
-      <div class="contenedor__form">
-        <form>
-          <label for="nombre">Nombre:</label>
-          <input id="nombre" name="nombre" placeholder="Nombre completo">
-          <label for="email">Email:</label>
-          <input id="email" name="email" type="email" placeholder="ejemplo@email.com">
-          <label for="mensaje">Mensaje:</label>
-          <textarea id="mensaje" name="mensaje" placeholder="Danos tu mensaje"></textarea>
-          <input id="submit" name="submit" type="submit" value="Enviar">
-        </form>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
 
     </section>
