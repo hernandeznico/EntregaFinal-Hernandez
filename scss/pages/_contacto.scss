@@ -1,0 +1,39 @@
+.contacto{
+    background-color: rgb(141, 141, 141);
+    height: 650px;
+text-align: center;
+   padding-top: 80px;
+   
+    
+    &__contenedor{
+        background-color: rgba(54, 54, 54, 0.692);
+        font-size: 2rem;
+        padding: 20px;
+        
+        height:90px;
+        color: rgb(213, 213, 213);
+        text-align: center;
+        
+      
+    }
+    
+  
+}
+.contacto{
+    background-color: rgb(141, 141, 141);
+    height: 650px;
+text-align: center;
+   padding-top: 80px;
+   &__form{
+    width: 250px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.424);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+}
+.subtitulo{
+    padding: 20px;
+    background-color: gray;
+}

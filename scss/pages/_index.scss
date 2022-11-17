@@ -1,0 +1,25 @@
+.boton__comprar{
+    margin: 25px;
+    padding: 8px;
+    background-color: rgb(218, 127, 16);
+    border-radius: 10px;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+ 
+}
+.boton__agotado{
+    margin: 25px;
+    padding: 8px;
+    background-color: rgb(132, 129, 125);
+    border-radius: 10px;
+}
+
+.proximamente{
+    margin: 5px;
+    color: brown;
+
+    
+}
+

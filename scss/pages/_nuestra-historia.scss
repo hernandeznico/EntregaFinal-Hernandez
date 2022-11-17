@@ -1,0 +1,33 @@
+.historia{
+    background-color: rgba(0, 0, 0, 0.438);
+   
+    height: 2100px;
+   display: flex;
+   justify-content: center;
+   padding-top: 80px;
+
+     &__contenedor{
+        background-color: rgba(54, 54, 54, 0.692);
+        font-size: 2rem;
+        padding: 20px;
+        border-radius: 20px;
+        height:90px;
+        color: rgb(82, 9, 9);
+        text-align: center;}
+        
+}
+
+.titulos{
+  
+    margin-top: 50px;
+    width: 500px;
+    height:200px;
+    font-size: 1.25rem;
+    right: 80%;
+    text-align: center;
+    color: black;
+   
+}
+.foto{
+    width: 500px;
+}

@@ -1,6 +1,8 @@
- @import"./base/reset";
- @import"./pages/contacto";
- @import"./pages/discografia";
- @import"./pages/integrantes";
- @import"./pages/nuestra-historia";
+@import"./base/_reset.scss";
+@import"./pages/_contacto.scss";
+@import"./pages/_discografia.scss";
+@import"./pages/_integrantes.scss";
+@import"./pages/_nuestra-historia.scss";
+@import"./components/_navbar.scss";
+@import"./pages/_index.scss";
 

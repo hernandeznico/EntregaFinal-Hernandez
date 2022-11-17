@@ -1,0 +1,20 @@
+.navbar{
+    background-color: rgba(128, 128, 128, 0.205);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+    &__list{
+        display: flex;
+        gap:80px;
+        font-size: 1.25rem;
+    }
+    
+
+}
+.nav-item:hover{
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.065) ;
+    border-radius: 20px;
+   
+}
