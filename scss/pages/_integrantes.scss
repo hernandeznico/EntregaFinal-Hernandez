@@ -2,3 +2,20 @@
     transform: scale(1.1);
     
 }
+.grow {
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    height: 460px;
+    width: 22%;
+    margin: 5px 1% 5px 1%;
+    float: left;
+    position: relative;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    text-align: center;
+    overflow: hidden;
+  
+  &:hover {
+    height: 900px;
+  }
+}
